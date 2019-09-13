@@ -2,6 +2,10 @@
   "name": "angular-electron",
   "version": "0.0.1",
   "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natanlf/angular-electron.git"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -27,6 +31,7 @@
     "electron-winstaller": "^4.0.0",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
+    "update-electron-app": "^1.5.0",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
