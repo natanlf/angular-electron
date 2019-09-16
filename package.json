@@ -1,6 +1,6 @@
 {
   "name": "angular-electron",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "main.js",
   "repository": {
     "type": "git",
@@ -9,7 +9,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod && electron .",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
