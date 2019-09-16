@@ -122,7 +122,7 @@ function handleSquirrelEvent(application) {
 ////////////////////////////////////////////////////////////////////
 
 
-const server = 'https://update.electronjs.org'
+const server = 'https://angular-electron.natanlaraferreira.now.sh'
 const feed = `${server}/update/${process.platform}/${app.getVersion()}`
 
 autoUpdater.setFeedURL(feed)
