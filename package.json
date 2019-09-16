@@ -9,12 +9,12 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build electron .",
+    "build": "ng build && electron .",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "electron": "electron .",
-    "electron-build": "ng build electron ."
+    "electron-build": "ng build && electron ."
   },
   "private": true,
   "dependencies": {
