@@ -14,7 +14,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "electron": "electron .",
-    "electron-build": "ng build && electron ."
+    "electron-build": "ng build && electron .",
+    "electron-win": "electron-packager . gpteste --platform=win32 --arch=ia32 --asar",
+    "electron-linux": "electron-packager . gpteste --platform=linux --arch=ia32 --asar"
   },
   "private": true,
   "dependencies": {

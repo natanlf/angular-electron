@@ -1,7 +1,9 @@
 const { app, BrowserWindow, autoUpdater, dialog } = require('electron')
+const fs = require('fs');
 require('update-electron-app')()
-
+fs.writeFileSync("teste.txt", process.argv);
 let win;
+
 
 function createWindow () {
   // Create the browser window.
@@ -19,7 +21,7 @@ function createWindow () {
 
 
   //// uncomment below to open the DevTools.
-  // win.webContents.openDevTools()
+   win.webContents.openDevTools()
 
   // Event when the window is closed.
   win.on('closed', function () {
